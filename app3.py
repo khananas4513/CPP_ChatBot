@@ -18,7 +18,7 @@ load_dotenv()
 # Step 3: Cache document loading
 @st.cache_resource
 def load_vector_store():
-    loader = TextLoader("C++_introduction.txt", encoding="utf-8")
+    loader = TextLoader("C++_Introduction.txt", encoding="utf-8")
     documents = loader.load()
 
     text_splitter = RecursiveCharacterTextSplitter(
