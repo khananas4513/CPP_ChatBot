@@ -1,11 +1,10 @@
-# Ignore virtual environment
+Include/
+share/
 Lib/
 Scripts/
 pyvenv.cfg
 __pycache__/
 *.pyc
-
-# Ignore large ML caches
 *.dll
 *.pyd
 *.so
